@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'basic-event-binding-exercise';
+  msg:string;
+
+
+  clickEvent(){
+    this.msg='Button is Clicked';
+    return this.msg;
+  }
+  // clickEvent(){
+  //   this => console.log
+  // }
 }
